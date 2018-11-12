@@ -1,0 +1,26 @@
+.add-employe{
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+}
+.add-employe a{
+    /* text-decoration: none; */
+    color: blue;
+    font-size: 1.5em;
+    
+}
+table.contacts{
+    width: 100%;
+    background: #0796c23d;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+table.contacts thead{
+    background-color: #046380;
+    color: #fff;
+}
+table.contacts thead th, table.contacts tbody td{
+    border: 1px solid #000; 
+    padding: 3px;
+}

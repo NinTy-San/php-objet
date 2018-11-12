@@ -24,10 +24,29 @@ require_once(__DIR__ . '/../vendor/Autoload.php');
 
 //tetst -3 ---------------------------------------------------------------------
 
-$er = new Manager\EntityRepository;
+// $er = new Manager\EntityRepository;
 
-var_dump($er);
+// var_dump($er);
 
-$resultat = $er->findAll();
+// $resultat = $er->findAll();
+// var_dump($resultat);
+
+
+//tetst -4 ---------------------------------------------------------------------
+
+// $employeR = new Repository\employeRepository;
+
+// var_dump($employeR);
+
+// $resultat = $employeR->getAllEmploye();
+// var_dump($resultat);
+
+
+//tetst -5 ---------------------------------------------------------------------
+
+$c = new Controller\Controller;
+
+
+$resultat = $c->getRepository('employe');
 var_dump($resultat);
 
