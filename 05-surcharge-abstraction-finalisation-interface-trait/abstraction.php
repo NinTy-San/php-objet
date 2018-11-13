@@ -17,7 +17,7 @@ class JoueurFr extends Joueur{
 }
 //------------------------------------------------------
 class JoueurUs extends Joueur{
-    public function etreMajeur(){ // OBLIGATION de redéfinir la méthode ma classe parente sino on obtien une erreur
+    public function etreMajeur(){ // OBLIGATION de redéfinir la méthode ma classe parente sinon on obtien une erreur
         return 21;
     }
     public function devise(){

@@ -1,0 +1,10 @@
+Yakine HAMIDA
+yakine.hamida@evogue.fr
+
+
+Syntaxe : creation des classses et instanciantion
+    -> abstract (extends)
+    -> interface interface (implements)
+Namespace : (espace de nom virtuels)
+Autoload : (require les fichiers nécessaires au moment de l'instanciantion)
+MVC : Model view Controller
